@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"> -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Michaels Portfolio</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-5-line"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-trophy-line"></i> Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-open-line"></i> Qualifications
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-image-line"></i> My Work
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-3-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!--Close button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi there, I’m <em>Michael</em><br>
+                        an HTML Email Developer <br>
+                    </h1>
+
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="assets/img/Profile-image-bakgr.png" style="width: 100%; height: auto;"
+                                alt="Profile Image">
+                        </div>
+
+                        <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
+                        <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+
+                    </div>
+
+                    <ul class="home__social">
+                        <a href="https://www.linkedin.com/in/michaelemaildev" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-line"></i>
+
+                        </a>
+
+                        <a href="https://github.com/MichaelEmailDev" target="_blank" class="home__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+
+                    </ul>
+                </div>
+
+
+                <!--==================== HOME INFO 1 ====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            BIOGRAPHY
+                        </h3>
+                        <p class="home__info-description">
+                            I'm a creative problem-solver, known for organizational skills, reliability, and a
+                            collaborative approach, always ready to assist team members and learn from collective
+                            experiences.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">EMAIL</h3>
+                        <p class="home__info-description">
+                            <a href="mailto:BetterBrandingDesign@gmail.com">BetterBrandingDesign@gmail.com</a>
+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            DOWNLOAD RESUME
+                        </h3>
+                        <div>
+                            <a href="MICHAEL TREVINO RESUME.pdf" target="_blank"
+                                style="#000000; text-decoration: none;">
+                                <button type="button" class="projects__button__two">
+                                    <span class="projects__button__two__text">Resume</span>
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== HOME INFO 2 ====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            YEARS OF EXPERIENCE
+                        </h3>
+
+                        <p class="home__info-number">
+                            03+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPLETED PROJECTS
+                        </h3>
+
+                        <p class="home__info-number">
+                            24+
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPANIES WORKED
+                        </h3>
+
+                        <p class="home__info-number">
+                            02+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">SKILLS</h2>
+            <span class="section__subtitle"></span>
+
+            <div class="skills__container container grid section__border">
+                <!--==================== SKILLS 1 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> HTML Email Developer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/html-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/css-3.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/logo-javascript.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/git-icon.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/litmus.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Litmus</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/hubspot.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Hubspot</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!--==================== SKILLS 2 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-pantone-line"></i> Web Designer
+                    </h3>
+
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/adobe-photoshop-2.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Photoshop</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/figma-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Figma</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/sketch-2.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Sketch</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/adobe-xd-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Adobe XD</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/wordpress.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Wordpress</h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">QUALIFICATIONS</h2>
+            <span class="section__subtitle">Experience & education</span>
+
+            <div class="qualification__container container grid section__border">
+
+                <!--==================== QUALIFICATION 1 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-pencil-ruler-2-line"></i> Education
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                B.S. Mechanical Engineering
+
+                            </h3>
+                            <span class="qualification__country">University Of Texas R.G.V.</span>
+                            <span class="qualification__year">2002 - 2006</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Coding Phase
+                            </h3>
+                            <span class="qualification__country">HTML Email Developer Program </span>
+                            <span class="qualification__year">2022 - 2023</span>
+                        </div>
+
+                    </div>
+                </div>
+                <!--==================== QUALIFICATION 2 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-building-line"></i> Work
+                    </h3>
+
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                HTML Email Developer
+                            </h3>
+                            <span class="qualification__country">Natural Blends Supplements</span>
+                            <span class="qualification__year">2021 - Current</span>
+                        </div>
+
+                        <div>
+                            <h3 class="qualification__name">
+                                Web Administrator
+                            </h3>
+                            <span class="qualification__country">Natural Blends Supplements</span>
+                            <span class="qualification__year">2021 - Current</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+
+        </section>
+
+
+        <!--==================== WORK PROCESS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">WORK PROCESS</h2>
+            <span class="section__subtitle">My favorite skills</span>
+
+            <div class="skills__container container grid section__border">
+                <!--==================== SKILLS 1 ====================-->
+                <div class="skills__content">
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <i class="ri-discuss-line icon"></i>
+                            </div>
+                            <h3 class="skills__name">DISCOVER</h3>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <i class="ri-lightbulb-line icon"></i>
+                            </div>
+                            <h3 class="skills__name">IDEA</h3>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <i class="ri-pencil-ruler-2-line icon"></i>
+                            </div>
+                            <h3 class="skills__name">DESIGN</h3>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <i class="ri-node-tree icon"></i>
+                            </div>
+                            <h3 class="skills__name">DEVELOP</h3>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <i class="ri-a-b icon"></i>
+                            </div>
+                            <h3 class="skills__name">TEST</h3>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <i class="ri-rocket-2-line icon"></i>
+                            </div>
+                            <h3 class="skills__name">LAUNCH</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">MY WORK</h2>
+            <span class="section__subtitle">HTML Emails</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PROJECT 1 Brooks ====================-->
+                        <div class="projects__content swiper-slide">
+                            <a href="brooks-promotional-email.html" target="_blank"
+                                style="color: #000000; text-decoration: none;">
+                                <img src="assets/img/Brooks Promotional Email.png" alt="projects image"
+                                    class="projects__img"></a>
+
+                            <div align="center">
+                                <span class="projects__subtitle">Promotional Email</span>
+                                <h1 class="projects__title">Brooks Sporting Goods</h1>
+                            </div>
+                            <div align="center">
+                                <a href="brooks-promotional-email.html" target="_blank"
+                                    style="#000000; text-decoration: none;">
+                                    <button type="button" class="projects__button__two">
+                                        <span class="projects__button__two__text">View Email</span>
+                                    </button></a>
+                            </div>
+                            <div align="center" style="padding-top: 10px;">
+                                <a href="https://github.com/MichaelEmailDev/BROOKS-PROMOTIONAL-EMAIL-PORTFOLIO.git"
+                                    target="_blank" style="#000000; text-decoration: none;">
+                                    Source Code</a>
+                            </div>
+
+                        </div>
+
+                        <!--==================== PROJECT 2 Redwoods ====================-->
+                        <div class="projects__content swiper-slide">
+                            <a href="redwoods-newsletter-email.html" target="_blank"
+                                style="color: #000000; text-decoration: none;">
+                                <img src="assets/img/Redwoods Newsletter Email.png" alt="projects image"
+                                    class="projects__img"></a>
+
+                            <div align="center">
+                                <span class="projects__subtitle">Newsletter Email</span>
+                                <h1 class="projects__title">The Redwoods In Yosemite</h1>
+                            </div>
+                            <div align="center">
+                                <a href="redwoods-newsletter-email.html" target="_blank"
+                                    style="#000000; text-decoration: none;">
+                                    <button type="button" class="projects__button__two">
+                                        <span class="projects__button__two__text">View Email</span>
+                                    </button></a>
+                            </div>
+                            <div align="center" style="padding-top: 10px;">
+                                <a href="https://github.com/MichaelEmailDev/REDWOODS-NEWSLETER-EMAIL-PORTFOLIO.git"
+                                    target="_blank" style="#000000; text-decoration: none;">
+                                    Source Code</a>
+                            </div>
+
+                        </div>
+
+                        <!--==================== PROJECT 3 Chewy ====================-->
+                        <div class="projects__content swiper-slide">
+                            <a href="chewy-transactional-email.html" target="_blank"
+                                style="color: #000000; text-decoration: none;">
+                                <img src="assets/img/Chewy Transactional Email.png" alt="projects image"
+                                    class="projects__img"></a>
+
+                            <div align="center">
+                                <span class="projects__subtitle">Transactional Email</span>
+                                <h1 class="projects__title">Chewy</h1>
+                            </div>
+                            <div align="center">
+                                <a href="chewy-transactional-email.html" target="_blank"
+                                    style="#000000; text-decoration: none;">
+                                    <button type="button" class="projects__button__two">
+                                        <span class="projects__button__two__text">View Email</span>
+                                    </button></a>
+                            </div>
+                            <div align="center" style="padding-top: 10px;">
+                                <a href="https://github.com/MichaelEmailDev/CHEWY-TRANSACTIONAL-EMAIL-PORTFOLIO.git"
+                                    target="_blank" style="#000000; text-decoration: none;">
+                                    Source Code</a>
+                            </div>
+
+                        </div>
+
+                        <!--==================== PROJECT 5 Dogster ====================-->
+                        <div class="projects__content swiper-slide">
+                            <a href="dogster-newsletter-email.html" target="_blank"
+                                style="color: #000000; text-decoration: none;">
+                                <img src="assets/img/Dogster Newsletter Email.png" alt="projects image"
+                                    class="projects__img"></a>
+
+                            <div align="center">
+                                <span class="projects__subtitle">Newsletter Email</span>
+                                <h1 class="projects__title">Dogster</h1>
+                            </div>
+                            <div align="center">
+                                <a href="dogster-newsletter-email.html" target="_blank"
+                                    style="#000000; text-decoration: none;">
+                                    <button type="button" class="projects__button__two">
+                                        <span class="projects__button__two__text">View Email</span>
+                                    </button></a>
+                            </div>
+                            <div align="center" style="padding-top: 10px;">
+                                <a href="https://github.com/MichaelEmailDev/DOGSTER-NEWSLETTER-EMAIL-PORTFOLIO.git"
+                                    target="_blank" style="#000000; text-decoration: none;">
+                                    Source Code</a>
+                            </div>
+
+                        </div>
+
+                        <!--==================== PROJECT 6 True ====================-->
+                        <div class="projects__content swiper-slide">
+                            <a href="true-religion-transactional-email.html" target="_blank"
+                                style="color: #000000; text-decoration: none;">
+                                <img src="assets/img/True Religion Transactional Email.png" alt="projects image"
+                                    class="projects__img"></a>
+
+                            <div align="center">
+                                <span class="projects__subtitle">Transactional Email</span>
+                                <h1 class="projects__title">True Religion</h1>
+                            </div>
+                            <div align="center">
+                                <a href="true-religion-transactional-email.html" target="_blank"
+                                    style="#000000; text-decoration: none;">
+                                    <button type="button" class="projects__button__two">
+                                        <span class="projects__button__two__text">View Email</span>
+                                    </button></a>
+                            </div>
+                            <div align="center" style="padding-top: 10px;">
+                                <a href="https://github.com/MichaelEmailDev/TRUE-RELIGION-TRANSACTIONAL-EMAIL-PORTFOLIO.git"
+                                    target="_blank" style="#000000; text-decoration: none;">
+                                    Source Code</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Swiper arrows -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+
+                    <!-- Swiper pagination -->
+                    <div class="swiper-pagination"></div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Connect with me
+
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">EMAIL</span>
+                            <span class="contact__data-info"><a
+                                    href="mailto:BetterBrandingDesign@gmail.com">BetterBrandingDesign@gmail.com</a></span>
+                        </div>
+
+                        <div class="contact__data">
+                            <span class="contact__data-title">LINKEDIN</span>
+                            <span class="contact__data-info"><a href="https://www.linkedin.com/in/michaelemaildev"
+                                    target="_blank">Linkedin</a></span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Contact Me
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Names</label>
+                            <input type="text" name="user_name" required placeholder="Write your names"
+                                class="contact__form-input" id="contact-name">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Mail</label>
+                            <input type="email" name="user_email" required placeholder="Write your email"
+                                class="contact__form-input" id="contact-email">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Subject</label>
+                            <textarea name="user_project" placeholder="Write your topic" id="contact-project"
+                                class="contact__form-input"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Michael Trevino</h1>
+            <p>HTML Email Developer</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+
+                <li>
+                    <a href="#projects" class="footer__link">My Work</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/michaelemaildev" target="_blank" class="footer__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+
+                <a href="https://github.com/MichaelEmailDev" target="_blank" class="footer__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright 2024 Michael Trevino. All rights reserved
+            </span>
+        </div>
+
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="main.js"></script>
+</body>
+
+</html>
